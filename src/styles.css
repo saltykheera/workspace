@@ -1,0 +1,252 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #f2f2f2; /* Slightly darker background color */
+}
+
+.post-cont {
+  
+  display: flex;
+  background-color: #f8f8f8; 
+  color: #333; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.pfp {
+  border: 3px solid #4285f4; /* Google Blue */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.post-upper {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem;
+}
+.name-username {
+  display: flex;
+  flex-direction: column;
+}
+.up_dnbtn {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 0rem;
+}
+
+.link-style {
+  color: inherit;
+  text-decoration: none;
+}
+
+.post-down {
+  margin: 2rem;
+}
+
+.post-cont {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.post-cont:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.comment-text {
+  display: flex;
+  flex-direction: column;
+}
+.usercomment {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.posta-cont {
+  margin: 1rem;
+  
+  height: 450px;
+  width: 800px;
+  background-color: #f8f8f8; 
+  color: #333; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: box-shadow 0.3s ease;
+}
+
+.posta-cont:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+.usera {
+  
+  height: 60px;
+  display: flex;
+}
+
+.user-detail {
+  display: flex;
+  margin: 10px;
+  gap: 4px;
+}
+
+.questiona {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.answera {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.namea {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ques-container {
+  margin: 8px;
+}
+.image-forum {
+  height: 180px;
+  width: 200px;
+  
+  margin-left: 4px;
+}
+.comment {
+  margin: 1rem;
+  background-color: #f8f8f8; 
+  color: #333; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: box-shadow 0.3s ease;
+}
+.question {
+  font-size: 18px;
+  font-weight: bold;
+}
+li {
+  margin-bottom: 10px;
+}
+
+.all-post {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.back-button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover{
+  background-color: #e5e5e5;
+}
+
+.side-bar{
+  padding: 1rem;
+  display: flex;
+  gap: 20px;
+}
+
+input{
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border color */
+  border-radius: 5px;
+  background-color: #f8f8f8; /* Apple Light Gray */
+  color: #333; /* Dark Text */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Inset shadow for a subtle effect */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+}
+
+input:hover{
+  outline: none; /* Remove default focus outline */
+  border-color: #66a0ff; /* Apple Blue on focus */
+  background-color: #fff; /* White background on focus */
+}
+
+.cmt-btn{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4285f4; 
+  margin: 1rem;
+  color: #ffffff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.cmt-btn:hover{
+  background-color: #3367d6;
+}
+
+img{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.up, .dn:hover{
+  background-color: #3367d6
+}
+
+.up, .dn{
+  background-color: #4285f4; /* Apple Blue */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+
+.heart{
+  background-color: #4285f4; /* Google Blue */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.pj{
+  height: 40px;
+  width:40px
+}
+
+.heading{
+  margin:0;
+  padding: 0;
+  font-family: 'Helvetica', Arial, sans-serif;
+ 
+  font-weight: bold; 
+  color: #333;
+}
+
+.title{
+  margin-left: 12rem;
+  display: flex;
+  gap: 12px;
+}
